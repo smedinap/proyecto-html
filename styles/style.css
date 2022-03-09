@@ -1,22 +1,30 @@
-header>h2{
-    text-align: center;
+header{
+    background-color: aqua;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header>h3 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-}
-body{
-    background-color: rgba(233, 236, 240, 0.739);
-    font-family: sans-serif;
-}
-nav>ul>li{
+div.section-header{
+    display: flex;
+    height: 60px;
+    width: 300px;
     display: inline;
-    font-style: normal;
-    font-weight: bold;  
-    font-size: 1.5ch;
+    justify-content: center;
 }
 
-a:link {
-    text-decoration: none;
+#tittle{
+    background-color: red;
+    display: flex;
+    align-items: center;
 }
+
+#subtittle{
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+
+
+
